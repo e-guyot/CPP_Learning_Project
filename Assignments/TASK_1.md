@@ -24,6 +24,8 @@ Réfléchissez aux pour et contre de chacune de ces options.
 
 Pour le restant de l'exercice, vous partirez sur le premier choix.
 
+On pourrait tout centraliser dans la classe `AircraftManager`, ce qui permettrait de supprimer les avions directement dans cette classe.
+
 ### B - Déterminer le propriétaire de chaque avion
 
 Vous allez introduire une nouvelle liste de références sur les avions du programme.
