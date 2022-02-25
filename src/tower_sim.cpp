@@ -57,6 +57,7 @@ void TowerSimulation::create_keystrokes() const
     GL::keystrokes.emplace('+', []() { GL::change_zoom(0.95f); });
     GL::keystrokes.emplace('-', []() { GL::change_zoom(1.05f); });
     GL::keystrokes.emplace('f', []() { GL::toggle_fullscreen(); });
+    /*  GL::keystrokes.emplace('p', []() { GL::pause(); });*/
 
     // TASK_0 C-2: framerate control
     // Framerate cannot equal 0 or the program would get stuck / crash.

@@ -45,6 +45,11 @@ void change_zoom(const float factor)
     handle_error("Zoom");
 }
 
+void pause()
+{
+    is_paused = !is_paused;
+}
+
 void reshape_window(int w, int h)
 {
     glViewport(0, 0, w, h);
