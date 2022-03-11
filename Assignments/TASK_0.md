@@ -58,6 +58,8 @@ Il faut également penser à le supprimer de cette liste avant de le détruire.
 Faites en sorte que l'ajout et la suppression de `display_queue` soit "automatiquement gérée" lorsqu'un `Displayable` est créé ou détruit.
 Pourquoi n'est-il pas spécialement pertinent d'en faire de même pour `DynamicObject` ?
 
+A voir plus tard \
+
 6) La tour de contrôle a besoin de stocker pour tout `Aircraft` le `Terminal` qui lui est actuellement attribué, afin de pouvoir le libérer une fois que l'avion décolle.
 Cette information est actuellement enregistrée dans un `std::vector<std::pair<const Aircraft*, size_t>>` (size_t représentant l'indice du terminal).
 Cela fait que la recherche du terminal associé à un avion est réalisée en temps linéaire, par rapport au nombre total de terminaux.
