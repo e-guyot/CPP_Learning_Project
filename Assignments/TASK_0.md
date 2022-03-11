@@ -45,9 +45,13 @@ Ajoutez une nouvelle fonctionnalité au programme pour mettre le programme en pa
 Faites en sorte qu'à la place, il soit retiré du programme.\
 Indices :\
 A quel endroit pouvez-vous savoir que l'avion doit être supprimé ?\
-Pourquoi n'est-il pas sûr de procéder au retrait de l'avion dans cette fonction ?
+Au niveau de la classe `Aircraft`, lorsque l'avion a atteri sur le terminal et qu'il a fini son décollage. \
+Pourquoi n'est-il pas sûr de procéder au retrait de l'avion dans cette fonction ?\
+L'avion pourrait être présent sur un autre pointeur\
 A quel endroit de la callstack pourriez-vous le faire à la place ?\
-Que devez-vous modifier pour transmettre l'information de la première à la seconde fonction ?
+dans la fonction timer après avoir move.\
+Que devez-vous modifier pour transmettre l'information de la première à la seconde fonction ?\
+Il faut rajouter une nouvelle fonction qui permet de savoir si l'objet doit être supprimé. \
 
 5) Lorsqu'un objet de type `Displayable` est créé, il faut ajouter celui-ci manuellement dans la liste des objets à afficher.
 Il faut également penser à le supprimer de cette liste avant de le détruire.
